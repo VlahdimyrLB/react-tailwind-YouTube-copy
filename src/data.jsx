@@ -90,3 +90,18 @@ export const Data = [
     time: "10:00",
   },
 ];
+
+export const YoutubeLogo =
+  "https://supersimple.dev/public/img/exercises/youtube/icons/youtube-logo.svg";
+export const UserLogo =
+  "https://yt3.ggpht.com/ladJhIvtQUWrX3PGCsfMoLbB2dzDfOa-UBHYbD9016vAguif_eKvOB64WKdgMJ1erRRPOdxD=s108-c-k-c0x00ffffff-no-rj";
+export const Hamburger =
+  "https://supersimple.dev/public/img/exercises/youtube/icons/hamburger-menu.svg";
+export const SearchIcon =
+  "https://supersimple.dev/public/img/exercises/youtube/icons/search.svg";
+export const VideoIcon =
+  "https://supersimple.dev/public/img/exercises/youtube/icons/upload.svg";
+export const Bell =
+  "https://supersimple.dev/public/img/exercises/youtube/icons/notifications.svg";
+export const Mic =
+  "https://supersimple.dev/public/img/exercises/youtube/icons/voice-search-icon.svg";

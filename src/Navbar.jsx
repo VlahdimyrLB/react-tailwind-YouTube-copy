@@ -1,19 +1,12 @@
-const Navbar = () => {
-  const YoutubeLogo =
-    "https://supersimple.dev/public/img/exercises/youtube/icons/youtube-logo.svg";
-  const UserLogo =
-    "https://yt3.ggpht.com/ladJhIvtQUWrX3PGCsfMoLbB2dzDfOa-UBHYbD9016vAguif_eKvOB64WKdgMJ1erRRPOdxD=s108-c-k-c0x00ffffff-no-rj";
-  const Hamburger =
-    "https://supersimple.dev/public/img/exercises/youtube/icons/hamburger-menu.svg";
-  const SearchIcon =
-    "https://supersimple.dev/public/img/exercises/youtube/icons/search.svg";
-  const VideoIcon =
-    "https://supersimple.dev/public/img/exercises/youtube/icons/upload.svg";
-  const Bell =
-    "https://supersimple.dev/public/img/exercises/youtube/icons/notifications.svg";
-  const Mic =
-    "https://supersimple.dev/public/img/exercises/youtube/icons/voice-search-icon.svg";
-
+const Navbar = ({
+  YoutubeLogo,
+  UserLogo,
+  Hamburger,
+  SearchIcon,
+  VideoIcon,
+  Bell,
+  Mic,
+}) => {
   return (
     <div className="flex justify-between align-middle h-14 fixed top-0 left-0 right-0 z-10 bg-white">
       {/* Youtube Logo Part */}
